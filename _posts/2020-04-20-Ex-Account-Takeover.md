@@ -4,7 +4,7 @@ title: "记一次账户接管"
 comments: true
 ---
 
-# 0x01
+## 0x01
 
 Hello, everybody.
 My name is CyberSecurity and my dream is CyberSecurity. 
@@ -12,7 +12,7 @@ CyberSecurity in BaiMaoHui & MSTLAB
 
 在对某家交易所进行测试的时候，发现了一处特别有意思的API，之后我利用此处API 的缺陷，成功完成了账户接管。
 
-# 0x02
+## 0x02
 
 目标是一家国际顶尖交易所, 因漏洞挖掘的保密规则, 我会在本篇文章中将目标称之为: example.com , 一开始, 我对目标展开了信息收集;
 
@@ -37,6 +37,6 @@ CyberSecurity in BaiMaoHui & MSTLAB
 而后，通过拿到的 Token 的尝试对受害者用户进行测试发现，可以绕过二次登录验证，用户无法改变Token的值，登出操作也不会做出修改，服务端并未对Token做出时效性的保护（此处便存在一个潜在的安全风险: `用户Token固定`），也就是说，拿到的 Token 可以**永久性**的操作用户。
 
 
-# 后记
+## 后记
 
 服务端并未校验此处端点的 Referer Header, 且 服务端 CORS 配置错误，当对 getToken 端点发起请求，Response 返回了 用户了 Token , Token 作为交易所用户的唯一凭证，利害不用多说，此处即会产生账户接管问题;
