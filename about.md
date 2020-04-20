@@ -22,6 +22,6 @@ permalink: /about/
 
 **Email: [Thanks#CTemplar.com](mailto:thanks@ctemplar.com) ( 将 # 替换为 @ )**   
 
-**Twitter: @Cyb3RS3CuR17y
+**Twitter: @Cyb3RS3CuR17y**
 
 **Github: [CyberSecurity](https://github.com/CyberSecur1ty)**   
