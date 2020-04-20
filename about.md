@@ -4,12 +4,24 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### 此博客用于记录自己的学习成长过程
 
-### More Information
+**ID: CyberSecurity**  
 
-A place to include any other types of information that you'd like to include about yourself.
+### 理想
+
+**为人民服务**
+
+### 兴趣爱好
+
+* **Web 安全**
+* **区块链安全**
+* **内网渗透**
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+**Email: [Thanks#CTemplar.com](mailto:thanks@ctemplar.com) ( 将 # 替换为 @ )**   
+
+**Twitter: @Cyb3RS3CuR17y
+
+**Github: [CyberSecurity](https://github.com/CyberSecur1ty)**   
