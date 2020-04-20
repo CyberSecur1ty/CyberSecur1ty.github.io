@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "记一次账户接管"
+tags: [账户接管, Tips]
 comments: true
 ---
 
