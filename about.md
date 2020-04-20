@@ -10,18 +10,18 @@ permalink: /about/
 
 ### 理想
 
-**为人民服务**
+为人民服务
 
 ### 兴趣爱好
 
-* **Web 安全**
-* **区块链安全**
-* **内网渗透**
+* Web 安全
+* 区块链安全
+* 内网渗透
 
 ### Contact me
 
-**Email: [Thanks#CTemplar.com](mailto:thanks@ctemplar.com) ( 将 # 替换为 @ )**   
+Email: [Thanks#CTemplar.com](mailto:thanks@ctemplar.com) ( 将 # 替换为 @ )   
 
-**Twitter: @Cyb3RS3CuR17y**
+Twitter: @Cyb3RS3CuR17y   
 
-**Github: [CyberSecurity](https://github.com/CyberSecur1ty)**   
+Github: [CyberSecurity](https://github.com/CyberSecur1ty)   
