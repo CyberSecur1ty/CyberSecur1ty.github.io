@@ -6,7 +6,7 @@ permalink: /about/
 
 ### 此博客用于记录自己的学习成长过程
 
-**ID: CyberSecurity**  
+ID: CyberSecurity  
 
 ### 理想
 
