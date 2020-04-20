@@ -29,7 +29,7 @@ navigation:
   - name: Tags
     url: /tags
   - name: Links
-    url: /links
+    url: /links/
 
 # Pagination
 paginate: 5
