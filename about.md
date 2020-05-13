@@ -22,6 +22,6 @@ ID: CyberSecurity
 
 Email: [Thanks#CTemplar.com](mailto:thanks@ctemplar.com)   
 
-Twitter: @Cyb3RS3CuR17y   
+Twitter: @90df4th3r   
 
 Github: [CyberSecurity](https://github.com/CyberSecur1ty)   
