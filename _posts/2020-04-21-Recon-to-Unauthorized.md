@@ -12,26 +12,26 @@ comments: true
 
 ## 0x01   
 
-![](https://raw.githubusercontent.com/CyberSecur1ty/CyberSecur1ty.github.io/master/images/Writeup/EUXJltuWAAIp866.png)   
+![](https://1337er.com/images/Writeup/EUXJltuWAAIp866.png)   
 
 这是 TIP 的原图，原理讲的就是如果某谷歌群组配置不当，允许非群组成员浏览，便会泄露一些敏感信息，就比如群组内成员的`真实姓名`，`邮箱地址`一类的信息;   
 说白了，类似于QQ群的设置，是否允许外人通过群组名称发现群组， `<DOMAIN.COM>` 是一个占位符，举个例子，比如说我要检索币安域名的谷歌群组: https://groups.google.com/a/binance.com/forum/
 如果出现下图所述的内容，意思就是群组存在，但是不允许外人浏览群组内容   
 
-![](https://raw.githubusercontent.com/CyberSecur1ty/CyberSecur1ty.github.io/master/images/Writeup/2h3f92hf82f2A.png)   
+![](https://1337er.com/images/Writeup/2h3f92hf82f2A.png)   
 
 反之如果出现下图这样的情况，即不存在此群组   
 
-![](https://raw.githubusercontent.com/CyberSecur1ty/CyberSecur1ty.github.io/master/images/Writeup/sdhsoijwg2g20g.png)   
+![](https://1337er.com/images/Writeup/sdhsoijwg2g20g.png)   
 
 谷歌群组检索这种方式特别适合于一些`国外`的`中小厂商`，此方法并不适用于国内厂商，因为大型厂商一般都会有自己的专属应用程序用于 OA 办公，员工互联，而国内厂商一般都会使用钉钉等服务用于内部工作;
 这是一个成功案例，这家厂商没有正确配置群组访问控制，如果出现了下图这样的情况，测试目标便存在这样的问题   
 
-![](https://raw.githubusercontent.com/CyberSecur1ty/CyberSecur1ty.github.io/master/images/Writeup/f8h928gh29gf2.png)   
+![](https://1337er.com/images/Writeup/f8h928gh29gf2.png)   
 
 上图便是我的测试目标，通过浏览群组这一功能，发现了一些敏感信息，内容包括用户名，邮箱地址，还有用于简述此用户用于什么用途的黑色字体，目前漏洞未修复，原谅重马   
 
-![](https://raw.githubusercontent.com/CyberSecur1ty/CyberSecur1ty.github.io/master/images/Writeup/weh829hg92.png)   
+![](https://1337er.com/images/Writeup/weh829hg92.png)   
 
 ## 0x02   
 
@@ -39,21 +39,21 @@ comments: true
 
 https://docker-registry.example.com/   
 
-![](https://raw.githubusercontent.com/CyberSecur1ty/CyberSecur1ty.github.io/master/images/Writeup/e839h28gh2g81.png)
+![](https://1337er.com/images/Writeup/e839h28gh2g81.png)
 
 发现存在未授权访问的情况，一般这个服务都是需要鉴权的，俗话就是 401 认证， 回手一个/v1/ -> 404 page not found   
 
 /v2/ 试试？   
 
-![](https://raw.githubusercontent.com/CyberSecur1ty/CyberSecur1ty.github.io/master/images/Writeup/weogj28g20g82.png)   
+![](https://1337er.com/images/Writeup/weogj28g20g82.png)   
 
 看一下仓库
 
-![](https://raw.githubusercontent.com/CyberSecur1ty/CyberSecur1ty.github.io/master/images/Writeup/23h932h28g2.png)
+![](https://1337er.com/images/Writeup/23h932h28g2.png)
 
 看命名规则像是生产环境的线上业务，发现确是 latest 版本
 
-![](https://raw.githubusercontent.com/CyberSecur1ty/CyberSecur1ty.github.io/master/images/Writeup/latest1.png)
+![](https://1337er.com/images/Writeup/latest1.png)
 
 自动化脚本，可以直接拖拽 docker 镜像 https://github.com/NotSoSecure/docker_fetch/
 
