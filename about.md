@@ -17,6 +17,7 @@ ID: CyberSecurity
 * Web 安全
 * 区块链安全
 * 做空比特币
+* 成为社会的废人
 
 ### Contact me
 
