@@ -16,7 +16,7 @@ ID: CyberSecurity
 
 * Web 安全
 * 区块链安全
-* 内网渗透
+* 做空比特币
 
 ### Contact me
 
