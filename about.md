@@ -12,10 +12,6 @@ ID: CyberSecurity
 
 为人民服务
 
-### 技能点
-
-熟练掌握各种语言的 HelloWorld 拼写
-
 ### 兴趣爱好
 
 * Web 安全
@@ -24,6 +20,10 @@ ID: CyberSecurity
 * 摇滚乐
 * 爵士乐
 * 和妹子聊天
+
+### 技能点
+
+熟练掌握各种语言的 Hello World 拼写
 
 ### Contact me
 
