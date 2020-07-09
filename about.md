@@ -25,10 +25,3 @@ ID: CyberSecurity
 * 爵士乐
 * 和女生聊天
 
-### Contact me
-
-Email: [Thanks#CTemplar.com](mailto:thanks@ctemplar.com)   
-
-Twitter: [@90df4th3r](https://twitter.com/__CyberSecurity)   
-
-Github: [CyberSecurity](https://github.com/CyberSecur1ty)   
